@@ -163,8 +163,8 @@ header nav .buttons .signup {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 252px 252px 252px 252px 252px 252px 252px;
-      grid-template-columns: repeat(7, 252px);
+  -ms-grid-columns: (252px)[7];
+  grid-template-columns: repeat(7, 252px);
   max-height: 0px;
   visibility: hidden;
   pointer-events: none;
@@ -239,12 +239,12 @@ header nav .buttons .signup {
   height: 350px;
   background: #e60023;
   border-radius: 10px;
-  background-image: url(../static/eu.jpeg);
-  background-size: cover; /* Para ajustar a imagem ao tamanho do container */
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  background-image: url('/eu.jpeg'), url('/suga.png'), url('/az.jpg');
+  background-size: cover; 
 }
 
 
-.item:not(:first-child) {
-  margin-top: 16px;
-}
 /*# sourceMappingURL=styles.css.map */
