@@ -1,6 +1,6 @@
 const grids = document.querySelectorAll('.grid');
 const headings = document.querySelectorAll('.heading .wrapper .text');
-const images = ['/eu.jpeg', '/suga.png', '/az.jpg'];
+const images = ['/eu.jpeg', '/kannabico.png', '/suga.png', 'gugu.png'];
 let currentImageIndex = 0;
 
 function enterScreen(index) {
