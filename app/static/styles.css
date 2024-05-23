@@ -163,7 +163,7 @@ header nav .buttons .signup {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (252px)[7];
+  -ms-grid-columns: 252px 252px 252px 252px 252px 252px 252px;
   grid-template-columns: repeat(7, 252px);
   max-height: 0px;
   visibility: hidden;
@@ -242,7 +242,7 @@ header nav .buttons .signup {
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  background-image: url('/eu.jpeg'), url('/suga.png'), url('/az.jpg');
+  background-image: url(../static/eu.jpeg);
   background-size: cover; 
 }
 

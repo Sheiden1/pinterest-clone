@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sheidenrest</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'styles.css') }}" />
+  <link rel="stylesheet" href="{{ url_for('static', filename= 'login.css') }}" />
+</head>
+<body>
+  <header>
+    <h3>Sheidenrest</h3>  
+    <nav>
+      <ul>
+        <li><a href="#">Sobre</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Negócios</a></li>
+      </ul>
+      <ul>
+        <li><a href="#">Blog</a></li>
+      </ul>
+
+      <div class="buttons">
+        <button class="login">Log in</button>
+        <button class="signup" onclick="window.location.href = 'index.html';">Home</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <h2></h2>
+    <form action="index" method="post" class="login-form" target="_blank">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <input type="submit" value="Log in">
+    </form>
+  </main>
+</body>
+</html>
