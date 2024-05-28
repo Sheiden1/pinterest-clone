@@ -8,7 +8,11 @@ if defined _OLD_CODEPAGE (
     "%SystemRoot%\System32\chcp.com" 65001 > nul
 )
 
+<<<<<<< HEAD
 set VIRTUAL_ENV=C:\Users\rphll\OneDrive\Área de Trabalho\pinterest-clone-main\venv
+=======
+set VIRTUAL_ENV=C:\Users\lua20\OneDrive\Área de Trabalho\Projeto Pinterest\venv
+>>>>>>> 62bfd5b289aff96e9a36f9e6578d89e41d91673e
 
 if not defined PROMPT set PROMPT=$P$G
 
